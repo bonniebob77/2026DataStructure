@@ -1,5 +1,8 @@
-#반복문
+#time모듈
+import time
+
+start = time.time()
 for i in range(1,6):
     print(i)
-
-#time모듈
+end = time.time()
+print(end - start)
