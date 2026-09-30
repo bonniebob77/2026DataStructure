@@ -1,12 +1,12 @@
-# C++ 배열 (동질적인
-
-
-
-
-
-
-
-
+# C++ 배열 (동질적 원소를 갖는다)
+# #include <iostream>
+# using namespace std;
+#
+# int main() {
+# 	int a[5] = {3, -9, 77, 8, 10};  // 모두 정수
+# 	int a[5] = {3, -9, 77.9, 8, 10};  // 77.9 실수로. 컴파일 에러
+# 	cout << a[1] << '\n';
+# }
 
 # artists = []
 artists = list()
