@@ -29,9 +29,14 @@ class Stack:
 subjects = Stack()
 subjects.push("자료구조")
 subjects.push("웹프로그래밍")
-print(subjects.pop())
-print(subjects.pop())
-print(subjects.pop())
 
-#결국 head가 top이다
-#리펙터 - 리네임 -> 쉽게 한번에 바꾸기 가능
+for i in range(2):
+    print(subjects.pop())
+
+numbers = Stack()
+numbers.push(3.14)
+numbers.push(2.71)
+numbers.push(55.5)
+
+for i in range(4):  # i가 3일 때, 즉 4번째 턴에 예외 발생
+    print(numbers.pop())
